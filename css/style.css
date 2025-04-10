@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Mojangles';
+    src: url('./minecraftfont.woff') format('truetype');
+    /* Or use .woff if that's what you have: */
+    /* src: url('fonts/Mojangles.woff') format('woff'); */
+  }
+  
+  body {
+    font-family: 'Mojangles', sans-serif;
+  }
+  
+
 body{
     background-color: greenyellow;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: rgb(40, 163, 201);
+    padding: 20;
+}
+
+header img{
+    width: 300;
+    height: 300;
+    border: 20px solid rgb(255, 102, 0);
+    border-radius: 50%;
 }
