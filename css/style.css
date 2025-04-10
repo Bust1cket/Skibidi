@@ -11,9 +11,6 @@
     color: white;
   }
   
-body{
-    background-color: greenyellow;
-}
 html, body{
     margin: 0;
     padding: 0;
@@ -22,6 +19,18 @@ header{
     text-align: center;
     background-color: rgb(40, 163, 201);
     padding: 20px;
+}
+
+p, ul, ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p.caption{
+    font-size: 16px;
+    color: grey;
+    font-style: italic;
+    text-align: center;
 }
 
 header .pfp{
@@ -47,5 +56,6 @@ main{
 main, img {
     display: block;
     margin: 0 auto;
+    border-radius: 20%;
 }
 
